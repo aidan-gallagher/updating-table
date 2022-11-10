@@ -37,4 +37,4 @@ while(True):
         # Catch ^C so it doesn't print traceback.
         # Move cursor back to the bottom of the terminal
         print(f"\u001b[{length}B", end='')
-        sys.exit(1)
+        sys.exit(0)
